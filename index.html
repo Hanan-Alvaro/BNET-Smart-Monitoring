@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BNET Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="company-logo">
+    <img src="logo.png" alt="BNET Logo">
+</div>
+
+<h1>📡 BNET Smart Monitoring</h1>
+
+<div class="box">
+
+<label>RX Power (dBm)</label>
+<input type="number" id="rx">
+
+<label>Traffic Client (Mbps)</label>
+<input type="number" id="traffic">
+
+<label>Latency (ms)</label>
+<input type="number" id="latency">
+
+<label>Packet Loss (%)</label>
+<input type="number" id="loss">
+
+<button onclick="analisa()">Analisa Jaringan</button>
+
+<h2 id="hasil"></h2>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
