@@ -108,11 +108,10 @@ let table = document.getElementById("history");
 
 let row = table.insertRow(-1);
 
-row.insertCell(0).innerHTML = rx;
-row.insertCell(1).innerHTML = traffic;
-row.insertCell(2).innerHTML = latency;
-row.insertCell(3).innerHTML = loss;
+row.insertCell(0).innerHTML = document.getElementById("rx").value;
+row.insertCell(1).innerHTML = document.getElementById("traffic").value;
+row.insertCell(2).innerHTML = document.getElementById("latency").value;
+row.insertCell(3).innerHTML = document.getElementById("loss").value;
 row.insertCell(4).innerHTML = hasil;
-
 
 
