@@ -102,5 +102,17 @@ output.innerHTML =
         output.style.color = "lightgreen";
     }
 }
+// ===== SIMPAN KE HISTORY =====
+
+let table = document.getElementById("history");
+
+let row = table.insertRow(-1);
+
+row.insertCell(0).innerHTML = rx;
+row.insertCell(1).innerHTML = traffic;
+row.insertCell(2).innerHTML = latency;
+row.insertCell(3).innerHTML = loss;
+row.insertCell(4).innerHTML = hasil;
+
 
 
