@@ -95,4 +95,24 @@ button:hover {
 }
 * {
     box-sizing: border-box;
+
+}
+
+table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid cyan;
+    padding:8px;
+}
+
+th{
+    background:#021c2c;
+}
+
+td{
+    background:#001421;
 }
